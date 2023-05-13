@@ -1,0 +1,7 @@
+certifi==2021.10.8
+charset-normalizer==2.0.12
+colorama==0.4.4
+grapheme==0.6.0
+idna==3.3
+netifaces==0.11.0
+termcolor==1.1.0
