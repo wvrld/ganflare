@@ -10,7 +10,7 @@ We've all been there; a bit of time has passed since our enumeration and we're f
 This tool generates reverse shell commands. However, keep in mind that obfuscation does not exist yet. **OPSEC wise, this tool is the equivalent of running head first into a wall made completely out of megaphones announcing your every move. Speaking of reverse shells**...
 
 - DO NOT use these shells, or *any* commands such as these on hosts which you do not have EXPLICIT WRITTEN permission to do so.
-- The author of `genflar` will not be held responsible if you decide to use this against someone or something you don't have permission to attack. Be smart, guys.
+- The author of `genflare` will not be held responsible if you decide to use this against someone or something you don't have permission to attack. Be smart, guys.
 - This tool is going to be an evergrowing project, please report any bugs, issues, etc. and I'll try my absolute best to get the issues resolved.
 
 ## ⭐ Installation
